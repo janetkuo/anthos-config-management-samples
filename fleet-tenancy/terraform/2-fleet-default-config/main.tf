@@ -38,7 +38,7 @@ resource "google_gke_hub_feature" "feature" {
       config_sync {
         source_format = "unstructured"
         git {
-          sync_repo = "https://github.com/GoogleCloudPlatform/anthos-config-management-samples"
+          sync_repo = "https://github.com/janetkuo/anthos-config-management-samples"
           sync_branch = "main"
           policy_dir = "fleet-tenancy/config"
           secret_type = "none"
